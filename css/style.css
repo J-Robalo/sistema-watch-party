@@ -1,0 +1,62 @@
+/* Geral */
+
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+  background-color: linear-gradient(
+    180deg,
+    #dadada 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.menu-cabecalho {
+  text-align: right;
+  color: #455364;
+}
+
+.logo-texto {
+  color: #455364;
+}
+
+/* Seção Principal */
+
+#secao-principal {
+  background-image: url(../img/cavalo.jpeg);
+  background-size: contain;
+  width: 1280px;
+  height: 752px;
+}
+
+.bloco-texto {
+  width: 40%;
+  padding: 40px;
+}
+
+.titulo-principal {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.texto-principal {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.botao-play,
+.botao-watch-party {
+  padding: 12px;
+  border-radius: 10px;
+  color: #455364;
+  font-weight: bold;
+}
+
+.botao-play i,
+.botao-watch-party i {
+  margin-right: 5px;
+}
