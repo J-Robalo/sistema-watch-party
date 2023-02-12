@@ -13,15 +13,48 @@
     #dadada 0%,
     rgba(255, 255, 255, 0) 100%
   );
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 1280px;
+  height: 40px;
 }
 
-.menu-cabecalho {
-  text-align: right;
-  color: #455364;
+.logo {
+  margin-left: 20px;
 }
 
 .logo-texto {
   color: #455364;
+  font-weight: bold;
+}
+
+.menu-cabecalho {
+  font-weight: bold;
+  color: #455364;
+  margin-right: 20px;
+}
+
+.menu-cabecalho a {
+  text-decoration: none;
+}
+
+.menu-secoes {
+  display: inline-flex;
+  transition: transform 100ms linear;
+  margin-left: 15px;
+}
+
+.menu-secoes:hover {
+  transform: scale(1.1);
+}
+
+/* Campo de Pesquisa */
+
+.barra-pesquisa {
+  padding: 5px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.53) 100%);
 }
 
 /* Seção Principal */
@@ -54,6 +87,11 @@
   border-radius: 10px;
   color: #455364;
   font-weight: bold;
+}
+
+.botao-play:hover,
+.botao-watch-party:hover {
+  cursor: pointer;
 }
 
 .botao-play i,
