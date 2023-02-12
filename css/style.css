@@ -15,9 +15,9 @@
   );
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   width: 1280px;
-  height: 40px;
+  height: 60px;
 }
 
 .logo {
@@ -62,8 +62,9 @@
 #secao-principal {
   background-image: url(../img/cavalo.jpeg);
   background-size: contain;
-  width: 1280px;
-  height: 752px;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
 
 .bloco-texto {
