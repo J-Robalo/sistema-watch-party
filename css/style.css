@@ -17,11 +17,11 @@
   justify-content: space-between;
   align-items: center;
   width: 1280px;
-  height: 60px;
+  height: 50px;
 }
 
 .logo {
-  margin-left: 20px;
+  margin-left: 45px;
 }
 
 .logo-texto {
@@ -31,7 +31,6 @@
 
 .menu-cabecalho {
   font-weight: bold;
-  color: #455364;
   margin-right: 20px;
 }
 
@@ -43,26 +42,38 @@
   display: inline-flex;
   transition: transform 100ms linear;
   margin-left: 15px;
+  color: #455364;
 }
 
 .menu-secoes:hover {
   transform: scale(1.1);
+  text-decoration: underline;
 }
 
 /* Campo de Pesquisa */
 
 .barra-pesquisa {
-  padding: 5px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.53) 100%);
+  padding: 7px;
+  background-color: rgb(11, 5, 5);
+}
+
+.botao-pesquisa {
+  margin-left: 37px;
+}
+
+.campo-pesquisa {
+  margin-left: 8px;
+  width: 200px;
+  height: 16px;
+  font-size: 12px;
 }
 
 /* Seção Principal */
 
 #secao-principal {
   background-image: url(../img/cavalo.jpeg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100vw;
   height: 100vh;
 }
@@ -82,20 +93,22 @@
   margin-bottom: 30px;
 }
 
-.botao-play,
-.botao-watch-party {
+#botao-play,
+#botao-watch-party {
   padding: 12px;
   border-radius: 10px;
   color: #455364;
   font-weight: bold;
 }
 
-.botao-play:hover,
-.botao-watch-party:hover {
+#botao-play:hover,
+#botao-watch-party:hover {
   cursor: pointer;
+  background-color: #455364;
+  color: #dadada;
 }
 
-.botao-play i,
-.botao-watch-party i {
+#botao-play i,
+#botao-watch-party i {
   margin-right: 5px;
 }

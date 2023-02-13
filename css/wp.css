@@ -2,11 +2,86 @@
 
 * {
   margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
-/* Conteúdo */
+/* Conteúdo geral */
 
-.barra-lateral {
-  background-color: lightslategray;
+#wp-principal {
+  display: flex;
+  height: 100vh;
+}
+
+/* Vídeo */
+
+.wp-video {
+  margin: 0;
+  min-height: 100%;
+  flex: 2 1 0;
+}
+
+iframe {
+  height: 100vh;
+}
+
+/* Coluna lateral */
+
+.coluna {
+  background-color: rgb(11, 5, 5);
+  color: #fff;
+  width: 40%;
+}
+
+.coluna-topo {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.bate-papo,
+.configuracoes {
+  cursor: pointer;
+}
+
+.bate-papo:hover,
+.configuracoes:hover {
+  font-weight: bold;
   color: white;
+}
+
+.coluna-titulo {
+  padding: 20px 25px 30px;
+}
+
+.coluna-texto-convite {
+  padding: 10px 25px 30px;
+  font-size: 15px;
+}
+
+.coluna-link {
+  padding: 25px;
+  text-decoration: none;
+}
+
+.coluna-controles {
+  padding: 30px 25px;
+  border-top: 1px solid #ddd;
+}
+
+.coluna-controles-todos,
+.coluna-controles-texto {
+  padding: 20px 25px;
+}
+
+.coluna-controles,
+.coluna-controles-todos {
+  font-weight: bold;
+}
+
+.coluna-detalhes {
+  padding: 25px;
+  border-top: 1px solid #ddd;
+  font-weight: bold;
 }
