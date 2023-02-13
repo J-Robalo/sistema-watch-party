@@ -27,7 +27,7 @@ iframe {
 /* Coluna lateral */
 
 .coluna {
-  background-color: rgb(11, 5, 5);
+  background-color: rgb(37, 26, 26);
   color: #fff;
   width: 40%;
 }
@@ -63,6 +63,13 @@ iframe {
 .coluna-link {
   padding: 25px;
   text-decoration: none;
+  color: #ddd;
+}
+
+.coluna-link i {
+  margin-right: 5px;
+  margin-bottom: 19px;
+  color: #ddd;
 }
 
 .coluna-controles {
