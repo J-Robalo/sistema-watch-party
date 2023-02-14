@@ -1,10 +1,10 @@
 # sistema-watch-party
 
-Com a proposta de projeto recebida, minha primeira ação foi definir um recorte para o que abordaria. Optei por um que contemplasse o segmento de atuação da erural - o agronegócio - com algo com o qual também tivesse uma conexão  pessoa - nessa caso, utilizando um vídeo narrado por meu pai, a partir do canal no qual compartilha seus registros de cavalos de marcha Brasil afora. 
+Com a proposta de projeto recebida, minha primeira ação foi definir um recorte para o que abordaria. Optei por um que contemplasse o segmento de atuação da erural - o agronegócio - com algo com o qual também tivesse uma conexão  pessoal - nesse caso, utilizando um vídeo narrado por meu pai, a partir do canal que ele administra e no qual compartilha seus registros de cavalos de marcha feitos Brasil afora. 
 
-Tendo definido, procurei referências de serviços que utilizassem o “Watch party”, para ter uma melhor compreensão de como era abordado em cada um desses casos. A partir das referências coletadas, defini uma proposta de estética similar àquela aplicada pela Amazon Prime para o compartilhamento de vídeo entre seus usuários.
+Tendo definido qual seria o tema, procurei referências de streamings que utilizassem o “Watch party”, para ter uma melhor compreensão de como era abordado este serviço em cada um desses casos. A partir das referências coletadas, defini uma proposta de estética e mecânica similar àquela aplicada pela Amazon Prime para o compartilhamento de vídeo entre seus usuários.
 
-Antes de partir para a construção do código em si, dediquei um tempo a elaborar - via Figma - os designs de cada tela, de acordo com o que estava imaginando para cada. Seria uma forma de contar com uma referência visual para nortear o projeto, deixando o processo mais intuitivo. Em alguns casos, fiz algumas alterações na hora de traduzir o visual para o código, como reorganizar o texto da página principal, para que não ficasse sob a imagem do cavalo, dificultando a leitura, ou alterando os nomes de alguns elementos da tela. 
+Antes de partir para a construção do código em si, dediquei um tempo a elaborar - via Figma - os designs de cada tela, de acordo com o que estava imaginando para cada. Seria uma forma de contar com uma referência visual para nortear o projeto, deixando o processo mais intuitivo. Em alguns casos, fiz algumas alterações na hora de traduzir o visual para o código, como reorganizar o texto da página principal, para que não ficasse sob a imagem do cavalo, o que dificultaria a leitura, ou alterando os nomes de alguns elementos da tela. A seguir, apresento os 3 modelos que desenvolvi para usar de referência.
 
 Referência da tela principal (criada no Figma):
 
