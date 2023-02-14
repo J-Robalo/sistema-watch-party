@@ -4,9 +4,6 @@
   position: relative;
   top: 0;
   left: 0;
-  background-image: url(../img/cavalo-escuro.jpeg);
-  background-size: cover;
-  background-position: center;
   display: none;
   align-items: center;
   justify-content: center;
@@ -59,6 +56,10 @@
 #criar-wp,
 #cancelar {
   margin-bottom: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #criar-wp:hover,
@@ -67,24 +68,22 @@
 }
 
 #criar-wp {
-  padding: 8px;
   background-color: #3577aa;
   color: #fff;
   font-weight: bold;
   border: none;
   border-radius: 5px;
-  height: 30px;
+  height: 35px;
   width: 450px;
 }
 
 #cancelar {
-  padding: 8px;
   color: #4babf4;
   font-weight: bold;
   background-color: black;
   border: 2px solid #4babf4;
   border-radius: 5px;
-  height: 30px;
+  height: 35px;
 }
 
 .modal-dicas {

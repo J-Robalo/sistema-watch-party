@@ -16,11 +16,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 60px;
 }
 
 .logo {
   margin-left: 45px;
+}
+
+.logo i {
+  margin-right: 2px;
 }
 
 .logo-texto {
@@ -84,6 +88,11 @@
 .bloco-texto {
   width: 40%;
   padding: 40px;
+  display: inline-block;
+}
+
+.bloco-texto.fechar {
+  display: none;
 }
 
 .titulo-principal {

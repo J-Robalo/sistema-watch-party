@@ -79,12 +79,17 @@ iframe {
 
 .coluna-controles-todos,
 .coluna-controles-texto {
-  padding: 20px 25px;
+  padding: 15px 25px;
 }
 
 .coluna-controles,
 .coluna-controles-todos {
   font-weight: bold;
+}
+
+.toggle {
+  padding-left: 25px;
+  padding-bottom: 10px;
 }
 
 .coluna-detalhes {
@@ -95,7 +100,7 @@ iframe {
 
 .coluna-conectadas {
   display: flex;
-  padding: 25px;
+  padding-left: 25px;
 }
 
 .coluna-conectadas i {

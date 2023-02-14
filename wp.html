@@ -18,11 +18,11 @@
 <body>
   <header class="cabecalho">
     <div class="logo">
-      <p class="logo-texto"><i class="fa-duotone fa-horse-head"></i>AgroFlix</p>
+      <p class="logo-texto"><i class="fa-solid fa-horse"></i>AgroFlix</p>
     </div>
 
     <nav class="menu-cabecalho">
-      <a class="menu-secoes" href="index.html">Vídeos</a>
+      <a class="menu-secoes" href="">Vídeos</a>
       <a class="menu-secoes" href="">Upload</a>
       <a class="menu-secoes" href="">Cadastro</a>
       <a class="menu-secoes" href="">Login</a>
@@ -31,7 +31,7 @@
 
   <div id="wp-principal">
     <div class="wp-video">
-      <iframe width="800px" src="https://www.youtube.com/embed/Fy85gFLkLFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe id="meuframe" width="800px" src="https://www.youtube.com/embed/Fy85gFLkLFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="coluna">
@@ -43,11 +43,15 @@
         <h2 class="coluna-titulo">Enviar convite</h2>
         <p class="coluna-texto-convite">Use este link para convidar outras pessoas e assistir junto com elas.</p>
 
-        <a href="" class="coluna-link"><i class="fa-solid fa-share-nodes"></i>Compartilhar link</a>
+        <a href="#" onClick="compartilharLink(); return false;" class="coluna-link"><i class="fa-solid fa-share-nodes"></i>Compartilhar link</a>
 
         <p class="coluna-controles">Controles do reprodutor</p>
         <p class="coluna-controles-todos">Todo mundo controla</p>
         <p class="coluna-controles-texto">Permitir que todos reproduzam, pausem e procurem. Ao desativar essa opção, significa que apenas o anfitrião pode controlar.</p>
+
+        <div class="toggle">
+          <i class="fa-solid fa-toggle-off"></i>
+        </div>
 
         <p class="coluna-detalhes">Detalhes</p>
 
@@ -59,6 +63,7 @@
       </div>
     </div>
 
+    <script src="js/wp.js"></script>
 </body>
 
 </html>
