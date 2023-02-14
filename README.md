@@ -1,5 +1,8 @@
 # sistema-watch-party
 
+Título do projeto: AgroFlix
+Tecnologias utilizadas: HTML, CSS e JavaScript.
+
 Com a proposta de projeto recebida, minha primeira ação foi definir um recorte para o que abordaria. Optei por um que contemplasse o segmento de atuação da erural - o agronegócio - com algo com o qual também tivesse uma conexão  pessoal - nesse caso, utilizando um vídeo narrado por meu pai, a partir do canal que ele administra e no qual compartilha seus registros de cavalos de marcha feitos Brasil afora. 
 
 Tendo definido qual seria o tema, procurei referências de streamings que utilizassem o “Watch party”, para ter uma melhor compreensão de como era abordado este serviço em cada um desses casos. A partir das referências coletadas, defini uma proposta de estética e mecânica similar àquela aplicada pela Amazon Prime para o compartilhamento de vídeo entre seus usuários.
